@@ -10,6 +10,22 @@ body {
     margin: 0 auto;
 }
 
+.container-backgroung {
+    position: relative;
+}
+
+.bg {
+    position: absolute;
+    width: 1000px;
+    height: 767px;
+    left: 524px;
+    bottom: -315px;
+    background: #FFEAA7;
+    border-radius: 99px;
+    transform: rotate(-45deg);
+    z-index: -2;
+}
+
 h1,
 h2 {
     margin: 0;
