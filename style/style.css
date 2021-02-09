@@ -16,20 +16,25 @@ h2 {
     margin: 0 auto;
 }
 
+.container-backgroung {
+    position: relative;
+}
+
 .rectangle {
-    position: fixed;
+    position: absolute;
     background-image: url('../files/img/rectangle-bg.png');
     background-repeat: no-repeat;
-    width: 1376px;
-    height: 768px;
-    right: -575px;
+    background-clip: padding-box;
+    width: 801px;
+    height: 753px;
+    right: 0px;
     top: -98px;
     opacity: 0.4;
     z-index: -3;
 }
 
 .dotted {
-    position: fixed;
+    position: absolute;
     background-image: url("../files/img/dots1.png");
     background-repeat: no-repeat;
     width: 209px;
@@ -81,4 +86,100 @@ h2 {
     text-align: center;
     letter-spacing: -1px;
     color: #2D3436;
+}
+
+
+
+
+.grid-text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 32px;
+    color: #2D3436;
+}
+
+
+.grid-container {
+    padding-top: 64px;
+    display: grid;
+    grid-template-columns: 1.0fr 1fr 0.75fr 0.60fr 0.7fr;
+    grid-template-rows: 49px 39px 262px 186px 82px 100px;
+    gap: 15px 15px;
+}
+
+.text1 {
+    grid-area: 1 / 1 / 2 / 2;
+}
+
+.card1 {
+    grid-area: 3 / 1 / 5 / 2;
+    background-image: url('../files/img/card1.jpg');
+    border-radius: 20px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+
+}
+
+.card2 {
+    grid-area: 1 / 2 / 4 / 4;
+    background-image: url('../files/img/card2.jpg');
+    border-radius: 20px;
+    background-repeat: no-repeat;
+    background-position: top center;
+
+}
+
+.learn-more {
+    grid-area: 5 / 1 / 6 / 2;
+    width: 270px;
+    height: 82px;
+
+    background: #6C5CE7;
+    border-radius: 999px;
+}
+
+.text2 {
+    grid-area: 2 / 4 / 3 / 6;
+}
+
+.card5 {
+    grid-area: 3 / 4 / 4 / 5;
+    background-image: url('../files/img/card5.png');
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    border-radius: 20px;
+}
+
+.card6 {
+    grid-area: 3 / 5 / 4 / 6;
+    background-image: url('../files/img/card6.jpg');
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    border-radius: 20px;
+}
+
+.card3 {
+    grid-area: 4 / 2 / 6 / 3;
+    background-image: url('../files/img/card3.png');
+    background-repeat: no-repeat;
+    background-position: top center;
+    border-radius: 20px;
+
+}
+
+.card4 {
+    grid-area: 4 / 3 / 7 / 5;
+    background-image: url('../files/img/card4.png');
+    background-repeat: no-repeat;
+    background-position: top right;
+    border-radius: 20px;
+}
+
+.card7 {
+    grid-area: 4 / 5 / 6 / 6;
+    background-image: url('../files/img/card7.jpg');
+    background-repeat: no-repeat;
+    background-position: top left;
+    border-radius: 20px;
 }
