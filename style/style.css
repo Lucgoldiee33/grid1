@@ -5,35 +5,46 @@ body {
     font-family: 'Inter', sans-serif;
 }
 
-.container {
-    max-width: 1170px;
-    margin: 0 auto;
-}
-
-.container-backgroung {
-    position: relative;
-}
-
-.bg {
-    position: absolute;
-    width: 1000px;
-    height: 767px;
-    left: 524px;
-    bottom: -315px;
-    background: #FFEAA7;
-    border-radius: 99px;
-    transform: rotate(-45deg);
-    z-index: -2;
-}
-
 h1,
 h2 {
     margin: 0;
     padding: 0;
 }
 
-.offer-title {
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.rectangle {
+    position: fixed;
+    background-image: url('../files/img/rectangle-bg.png');
+    background-repeat: no-repeat;
+    width: 1376px;
+    height: 768px;
+    right: -575px;
+    top: -98px;
+    opacity: 0.4;
+    z-index: -3;
+}
+
+.dotted {
+    position: fixed;
+    background-image: url("../files/img/dots1.png");
+    background-repeat: no-repeat;
+    width: 209px;
+    height: 285px;
+    right: 0px;
+    top: 88px;
+    z-index: -2;
+}
+
+.offer {
     padding-top: 80px;
+}
+
+.offer-title {
+
     font-style: normal;
     font-weight: 800;
     font-size: 96px;
