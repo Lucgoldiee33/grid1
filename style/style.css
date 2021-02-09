@@ -46,6 +46,7 @@ h2 {
 
 .offer {
     padding-top: 80px;
+    padding-bottom: 80px;
 }
 
 .offer-title {
@@ -103,9 +104,9 @@ h2 {
 .grid-container {
     padding-top: 64px;
     display: grid;
-    grid-template-columns: 1.0fr 1fr 0.75fr 0.60fr 0.7fr;
-    grid-template-rows: 49px 39px 262px 186px 82px 100px;
-    gap: 15px 15px;
+    grid-template-columns: 0.9fr 1fr 0.75fr 0.67fr 0.65fr;
+    grid-template-rows: 49px 22px 249px 173px 82px 100px;
+    gap: 30px 30px;
 }
 
 .text1 {
@@ -174,6 +175,7 @@ h2 {
     background-repeat: no-repeat;
     background-position: top right;
     border-radius: 20px;
+    height: 356px;
 }
 
 .card7 {
