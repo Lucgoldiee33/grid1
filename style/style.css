@@ -20,6 +20,99 @@ h2 {
     position: relative;
 }
 
+
+.header {
+    width: 100%;
+    background-color: #FFFFFF;
+    filter: drop-shadow(0px 2px 4px rgba(38, 50, 56, 0.16)),
+        drop-shadow(0px 4px 8px rgba(38, 50, 56, 0.08));
+}
+
+.header-container {
+    margin: 0 auto;
+    max-width: 1170px;
+    height: 96px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    filter: drop-shadow(0px 2px 4px rgba(38, 50, 56, 0.16)),
+        drop-shadow(0px 4px 8px rgba(38, 50, 56, 0.08));
+
+}
+
+.header-logo-name {
+    display: flex;
+    align-items: center;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 56px;
+    color: #2D3436;
+    text-decoration: none;
+    padding-right: 15px;
+}
+
+.header-items {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header-item {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 32px;
+    color: #6C5CE7;
+    text-decoration: none;
+    text-align: center;
+    white-space: nowrap;
+    transition: all linear 0.1s;
+}
+
+.header-item:hover {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    color: #2D3436;
+}
+
+.dots {
+    width: 6px;
+    height: 6px;
+    background-color: #FDCB6E;
+    border-radius: 50%;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.sign-in {
+    padding: 22px 38px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #6C5CE7;
+    border-radius: 999px;
+    text-shadow: 0px 2px 4px rgba(38, 50, 56, 0.16), 0px 4px 8px rgba(38, 50, 56, 0.08);
+    text-decoration: none;
+    margin-left: 15px;
+    white-space: nowrap;
+    transition: all linear 0.1s;
+    margin-right: 15px;
+
+}
+.sign-in:hover {
+    background-color: #59efc5;
+    text-shadow: 0px 4px 0px #FFFFFF;
+    color: #D63031;
+}
+
 .rectangle {
     position: absolute;
     background-image: url('../files/img/rectangle-bg.png');
@@ -287,19 +380,22 @@ h2 {
     .card4 {
         height: 278px;
     }
+
     .card7 {
         height: 143px;
     }
-    
+
 }
 
 @media (max-width: 720px) {
     .container {
         max-width: 576px;
     }
+
     .grid-container {
         grid-template-rows: 44px 0.3fr 0.7fr 0.5fr 0.2fr 0.1fr;
     }
+
     .offer-title {
         font-size: 87px;
     }
@@ -312,7 +408,8 @@ h2 {
         font-size: 18px;
         height: 56px;
     }
+
     .card1 {
         font-size: 15px;
-}
+    }
 }
