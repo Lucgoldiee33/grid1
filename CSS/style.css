@@ -1,0 +1,123 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+.advantages{
+	width: 1440px;
+	height: 666px;
+}
+.title{
+	width: 1170px;
+	height: 49px;
+	font-family: Inter;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 32px;
+	line-height: 48px;
+	margin: 80px 135px 0;
+	color: #2D3436;
+	letter-spacing: -0.5px;
+}
+.subtitle{
+	width: 1170px;
+	height: 72px;
+	font-family: Inter;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	color: #2D3436;
+	line-height: 36px;
+	margin: 15px 135px 0;
+	letter-spacing: -0.25px;
+}
+.block{
+	width: 1170px;
+	height: 330px;
+	padding: 0;
+	margin: 40px 135px 0;
+	display: flex;
+	align-items: center;
+}
+.item{
+	width: 270px;
+	height: 330px;
+	margin: 0 30px 0 0;
+}
+.circle_pink{
+	width: 70px;
+	height: 70px;
+	border-radius: 35px;
+	background: #E84393;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.circle_blue{
+	width: 70px;
+	height: 70px;
+	border-radius: 35px;
+	background: #0984E3;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.circle_purple{
+	width: 70px;
+	height: 70px;
+	border-radius: 35px;
+	background:#6C5CE7;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.circle_green{
+	width: 70px;
+	height: 70px;
+	border-radius: 35px;
+	background:#6C5CE7;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+img{
+	width: 30px;
+	height: 30px;
+}
+.name{
+	width: 270px;
+	height: 36px;
+	font-family: Inter;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 36px;
+	margin: 24px 0 0;
+	color: #2D3436;
+}
+.discription{
+	width: 270px;
+	height: 128px;
+	margin: 16px 0 0;
+	font-family: Inter;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 32px;
+	color: #2D3436;
+}
+.button{
+	width: 146px;
+	height: 48px;
+	padding: 0;
+	border: 1px solid #ADADAD;
+	box-sizing: border-box;
+	border-radius: 16px;
+	color: #6C5CE7;
+	font-family: Inter;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 32px;
+	background-color:#fff;
+	margin: 8px 0 0;
+}
