@@ -3,46 +3,39 @@ body{
 	padding: 0;
 }
 .advantages{
-	width: 1440px;
-	height: 666px;
+	width: 100%;
+	max-width: 1170px;
+	margin: 0 auto;
+	padding: 0 15px;
 }
 .title{
-	width: 1170px;
-	height: 49px;
 	font-family: Inter;
 	font-style: normal;
 	font-weight: bold;
 	font-size: 32px;
 	line-height: 48px;
-	margin: 80px 135px 0;
+	margin-top: 80px;
 	color: #2D3436;
 	letter-spacing: -0.5px;
 }
 .subtitle{
-	width: 1170px;
-	height: 72px;
 	font-family: Inter;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 24px;
 	color: #2D3436;
 	line-height: 36px;
-	margin: 15px 135px 0;
 	letter-spacing: -0.25px;
 }
 .block{
-	width: 1170px;
-	height: 330px;
 	padding: 0;
-	margin: 40px 135px 0;
 	display: flex;
 	align-items: center;
+	margin-top: 40px;
+	justify-content: space-between;
+	flex-wrap: wrap;
 }
-.item{
-	width: 270px;
-	height: 330px;
-	margin: 0 30px 0 0;
-}
+
 .circle_pink{
 	width: 70px;
 	height: 70px;
