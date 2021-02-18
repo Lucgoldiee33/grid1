@@ -71,11 +71,10 @@ h2 {
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
-    line-height: 32px;
+    line-height: 23px;
     color: #6C5CE7;
     text-decoration: none;
     text-align: center;
-    white-space: nowrap;
     transition: all linear 0.1s;
 }
 
@@ -672,7 +671,7 @@ h2 {
     }
 
     .grid-container {
-        grid-template-rows: 15px 0.3fr 1.2fr 0.5fr 0.2fr 0.1fr;
+        grid-template-rows: 15px 0.3fr 1fr 0.5fr 0.2fr 0.1fr;
     }
 
     .card4 {
@@ -681,6 +680,10 @@ h2 {
 
     .card7 {
         height: 143px;
+    }
+
+    .grid-text {
+        font-size: 15px;
     }
 
 }
@@ -748,6 +751,16 @@ h2 {
     .card1 {
         font-size: 15px;
     }
+
+    .learn-more {
+        grid-area: 6 / 3 / 6 / 2;
+    }
+    .text1 {
+        opacity: 0;
+    }
+    .text2 {
+        opacity: 0;
+    }
 }
 
 
@@ -757,7 +770,7 @@ h2 {
     }
 
     .grid-container {
-        grid-template-rows: 0px 100px 147px 77px 30px 125px;
+        grid-template-rows: 0px 58px 147px 77px 30px 125px;
         grid-template-columns: 169px 126px auto 95px 70px;
         margin-left: calc(-36%);
         width: calc(100% - -130px);
@@ -790,7 +803,7 @@ h2 {
     }
 
     .grid-container {
-        grid-template-rows: 0px 100px 147px 77px 30px 125px;
+        grid-template-rows: 0px 58px 147px 77px 30px 125px;
         grid-template-columns: 169px 126px auto 95px 70px;
         margin-left: calc(-52%);
         width: calc(100% - -164px);
@@ -831,7 +844,7 @@ h2 {
     }
 
     .grid-container {
-        grid-template-rows: 0px 100px 147px 77px 30px 121px;
+        grid-template-rows: 0px 58px 147px 77px 30px 121px;
         grid-template-columns: 169px 126px auto 95px 70px;
         margin-left: calc(-112%);
         width: calc(100% - -255px);
@@ -853,7 +866,7 @@ h2 {
     }
 
     .offer-subtitle {
-        padding-top: 172px;
+        padding-top: 193px;
         font-size: 25px;
         line-height: 45px;
     }
