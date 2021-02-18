@@ -690,7 +690,12 @@ h2 {
     }
 
     .grid-container {
-        grid-template-rows: 44px 0.3fr 0.7fr 0.5fr 0.2fr 0.1fr;
+        grid-template-rows: 0px 100px 147px 77px 30px 60px;
+        grid-template-columns: 169px 126px auto 95px 70px;
+        margin-left: calc(-26%);
+        width: calc(100% - -83px);
+        overflow-x: hidden;
+        overflow-y: hidden;
     }
 
     .offer-title {
@@ -699,6 +704,156 @@ h2 {
 
     .offer-subtitle {
         font-size: 50px;
+    }
+
+    .learn-more {
+        font-size: 18px;
+        height: 56px;
+    }
+
+    .card1 {
+        font-size: 15px;
+    }
+}
+
+
+@media (max-width: 576px) {
+    .container {
+        max-width: 426px;
+    }
+
+    .grid-container {
+        grid-template-rows: 0px 100px 147px 77px 30px 125px;
+        grid-template-columns: 169px 126px auto 95px 70px;
+        margin-left: calc(-27%);
+        width: calc(100% - -88px);
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+
+    .offer-title {
+        font-size: 87px;
+    }
+
+    .offer-subtitle {
+        font-size: 50px;
+    }
+
+    .learn-more {
+        font-size: 18px;
+        height: 56px;
+    }
+
+    .card1 {
+        font-size: 15px;
+    }
+}
+
+
+@media (max-width: 426px) {
+    .container {
+        max-width: 375px;
+    }
+
+    .grid-container {
+        grid-template-rows: 0px 100px 147px 77px 30px 125px;
+        grid-template-columns: 169px 126px auto 95px 70px;
+        margin-left: calc(-36%);
+        width: calc(100% - -130px);
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+
+    .offer-title {
+        font-size: 87px;
+    }
+
+    .offer-subtitle {
+        font-size: 50px;
+    }
+
+    .learn-more {
+        font-size: 18px;
+        height: 56px;
+    }
+
+    .card1 {
+        font-size: 15px;
+    }
+}
+
+
+@media (max-width: 375px) {
+    .container {
+        max-width: 320px;
+    }
+
+    .grid-container {
+        grid-template-rows: 0px 100px 147px 77px 30px 125px;
+        grid-template-columns: 169px 126px auto 95px 70px;
+        margin-left: calc(-52%);
+        width: calc(100% - -164px);
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+
+    .offer-title {
+        font-size: 66px;
+        line-height: 86px;
+    }
+
+    .offer-title .block-fine {
+        width: 154px;
+        height: 40px;
+    }
+
+    .offer-subtitle {
+        font-size: 44px;
+        line-height: 58px;
+    }
+
+    .learn-more {
+        font-size: 18px;
+        height: 56px;
+    }
+
+    .card1 {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 320px) {
+    .container {
+        max-width: 200px;
+        position: relative;
+    }
+
+    .grid-container {
+        grid-template-rows: 0px 100px 147px 77px 30px 121px;
+        grid-template-columns: 169px 126px auto 95px 70px;
+        margin-left: calc(-112%);
+        width: calc(100% - -255px);
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+
+    .offer-title {
+        position: absolute;
+        left: -10%;
+        font-size: 54px;
+        line-height: 53px;
+    }
+
+    .offer-title .block-fine {
+        width: 132px;
+        height: 33px;
+        top: 37px;
+    }
+
+    .offer-subtitle {
+        padding-top: 172px;
+        font-size: 25px;
+        line-height: 45px;
     }
 
     .learn-more {
