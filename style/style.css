@@ -14,6 +14,7 @@ h2 {
 .container {
     max-width: 1170px;
     margin: 0 auto;
+    width: 100%;
 }
 
 .container-backgroung {
@@ -810,6 +811,7 @@ h2 {
     .offer-subtitle {
         font-size: 44px;
         line-height: 58px;
+        padding-top: 8px;
     }
 
     .learn-more {
